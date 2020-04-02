@@ -3,4 +3,4 @@
 let dolars = +prompt("введите доллары");
 const RATES = 0.893 ;
 let euro = dolars * RATES;
-alert(euro);
+alert(euro + " Евро");

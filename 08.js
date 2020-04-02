@@ -4,7 +4,7 @@ let money = +prompt("введите сумму денег");
 let cost = +prompt("введите цену шоколадки");
 let surrend = money % cost;
 let chocolade = (money - surrend)/cost ;
-alert(surrend+ ", грн Сдача");
-alert(chocolade + " плитки шоколада");
+alert("У вас будет " + surrend+ " грн сдачи");
+alert(" Вы сможете купить " + chocolade + " плитки шоколада");
 
 
